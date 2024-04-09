@@ -1,0 +1,122 @@
+@media screen and (max-width: 500px) {
+    .header_p{
+        font-size: 12px;
+    }
+    .header_title{
+        font-size: 28px;
+        margin-top: 20px;
+        margin-bottom: 24px;
+    }
+    .navbar_wrap{
+        width: 366px;
+    }
+    .header_wrap{
+        width: 366px;
+    }
+    .releases_wrap{
+        width: 366px;
+    }
+    .card_info_wrap{
+        width: 366px;
+    }
+    .projects_wrap{
+        width: 366px;
+    }
+    .header_but{
+        font-size: 12px;
+    }
+    .r_card{
+        margin-top: 24px;
+    }
+    .titlese{
+        font-size: 20px;
+
+    }
+    .r_title_card{
+        font-size: 24px;
+    }
+    .icon_wrap{
+        top: 32px;
+        display: flex;
+        align-items: center;
+        height: 36px;
+    }
+    .r_subtitle_card{
+        font-size: 12px;
+        margin-top: 20px;
+        font-weight: bold;
+    }
+    .cards_wrap_partn{
+        flex-direction: column;
+    }
+    .card_partn{
+        padding: 0;
+        display: flex;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+    .card_partn_img{
+        width: 50%;
+    }
+    .
+    .titlese{
+        margin-top: 0px;
+    }
+    .card_projects{
+        padding: 4px;
+    }
+    .card_projects_card{
+        height: 85px;
+    }
+    .projects_card_title{
+        margin-top: 4px ;
+        font-size: 10px;
+    }
+    .link_wrap_proj{
+        margin-top: 16px;
+    }
+    .r_title_info_card{
+        font-size: 12px;
+        margin-top: 12px;
+        font-weight: bold;
+    }
+    .icon_wrap img{
+        width: 20px;
+        height: 20px;
+    }
+    .header_title_p{
+        font-size: 16px;
+        line-height: 120%;
+    }
+    .partners_wrap{
+        width: 366px;
+    }
+    .footer_wrap{
+        width: 366px;
+    }
+    .player{
+        width: 366px;
+    }
+    .card_partn_img{
+        width: 212px;
+    }
+    .card_info_partn{
+        font-size: 12px;
+        width: 212px;
+    }
+    .partn_but{
+width: 212px;
+    }
+    .releasesn_wrap{
+        width: 366px;
+    }
+    .basic_wrap_bg{
+        width: 366px;
+    }
+    .partners_newer_wrap{
+        width:366px;
+    }
+    .header_releases_news_wrap{
+        width: 366px;
+    }
+}

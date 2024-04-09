@@ -1,0 +1,295 @@
+@media screen and (max-width: 1200px) {
+    .navbar_wrap{
+        width: 1000px;
+    }
+    .header_wrap{
+        width: 1000px;
+    }
+    .releases_wrap{
+        width: 1000px;
+    }
+    .card_info_wrap{
+        width: 1000px;
+    }
+    .projects_wrap{
+        width: 1000px;
+    }
+    .partners_wrap{
+        width: 1000px;
+    }
+    .footer_wrap{
+        width: 1000px;
+    }
+    .player{
+        width: 1000px;
+    }
+    .card_partn_img{
+        width: 212px;
+    }
+    .card_info_partn{
+        font-size: 12px;
+        width: 212px;
+    }
+    .partn_but{
+width: 212px;
+    }
+    .releasesn_wrap{
+        width: 1000px;
+    }
+    .basic_wrap_bg{
+        width: 1000px;
+    }
+    .partners_newer_wrap{
+        width:1000px;
+    }
+    .header_releases_news_wrap{
+        width: 1000px;
+    }
+}
+#nav-icon3{
+    display: none;
+    position: relative;
+    height: 22px;
+    width: 24px;
+}
+#nav-icon3 span{
+    background-color: white;
+    display: block;
+    width: 24px;
+    height: 2px;
+    position: absolute;
+    transition: -webkit-transform 0.5s ease;
+
+}
+#nav-icon3 span:nth-child(1) {
+    top: 0px;
+
+  }
+  
+  #nav-icon3 span:nth-child(2),#nav-icon3 span:nth-child(3) {
+    top: 8px;
+
+  }
+  
+  #nav-icon3 span:nth-child(4) {
+    top: 16px;
+  }
+  
+  #nav-icon3.open span:nth-child(1) {
+    top: 8px;
+    width: 0%;
+    left: 50%;
+  }
+  
+  #nav-icon3.open span:nth-child(2) {
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    transform: rotate(45deg);
+  }
+  
+  #nav-icon3.open span:nth-child(3) {
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+  }
+  
+  #nav-icon3.open span:nth-child(4) {
+    top: 8px;
+    width: 0%;
+    left: 50%;
+  }
+  .navbar{
+    transition: all 0.5s ease;
+    height: 96px;
+    overflow: hidden;
+    position: relative;
+}
+@media screen and (max-width: 834px) {
+    .navbar .act_nu{
+
+
+    }
+
+    .header_p{
+        font-size: 16px;
+        margin: 22px 0;
+    }
+    .header_title{
+        font-size: 36px;
+    }
+    .header_title_p{
+        font-size: 16px;
+    }
+    .header_but{
+        margin-bottom: 32px;
+    }
+    .little_title{
+        margin-top: 60px;
+    }
+    .act_nvb{
+        height: 423px;
+    }
+    .release_card_poster{
+        height: 160px;
+        border-top-right-radius: 16px;
+        border-bottom-left-radius: 0;
+    }
+    .card_info_wrap{
+        padding: 32px 40px;
+        border-top-right-radius: 0;
+        border-bottom-left-radius: 16px;
+        position: relative;
+    }
+    .icon_wrap{
+        margin: 0;
+        position: absolute;
+        right: 40px;
+        top: 40px;
+    }
+    .card_partn .card_projects_card{
+        height: 120px;
+    }
+    .card_partn .card_partn_img{
+        width: 135px;
+        height: 144px;
+    }
+    .card_partn .card_info_partn{
+        width: 135px;
+        font-size: 10px;
+    }
+    .card_title_partn{
+        font-size: 12px;
+    }
+
+    .active_li_foot{
+        font-size: 12px;
+    }
+
+    .sublogo{
+        font-size: 12px;
+    }
+    .trademark{
+        font-size: 12px;
+    }
+    .card_partn .partn_but{
+        width: 135px;
+    }
+    .card_projects{
+        padding: 16px;
+    }
+    .projects_card_title{
+        font-size: 16px;
+    }
+    .r_title_card{
+        margin: 0;
+    }
+    .r_subtitle_card{
+        margin: 0;
+    }
+    .r_card{
+        flex-direction: column;
+        
+    }
+    .r_title_info_card{
+        margin: 0;
+    }
+.r_cardn{
+    width: 100%;
+}
+.releasesn_wrap a{
+    width: 100%;
+}
+.header_releases_news .gradient{
+    height: 426px;
+}
+.header_releases_news .img_header_r{
+    height: 426px;
+}
+.title_header_r{
+    font-size: 40px;
+}
+.above_title_hr{
+    font-size: 16px;
+}
+.header_releases_news_info{
+    flex-direction: column;
+}
+.line_info_releases{
+    width: 590px;
+}
+.end_of_releases{
+    bottom: 20px;
+}
+.header_releases_news .header_releases_news_wrap{
+    width: 714px;
+    height: 426px;
+}
+    .nav_units{
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        top: 96px;
+        left: 50%;
+        transform: translateX(-50%);
+        font-size: 20px;
+        align-items: center;
+    }
+    .nav_button{
+        position: absolute;
+        top: 352px;
+        left: 50%;
+        transform: translateX(-50%);
+        display: block;
+    }
+    #nav-icon3{
+        display: inline-block;
+    }
+    .navbar_wrap{
+        width: 714px;
+    }
+    .header_wrap{
+        width: 714px;
+    }
+    .releases_wrap{
+        width: 714px;
+    }
+    .card_info_wrap{
+        width: 714px;
+    }
+    .projects_wrap{
+        width: 714px;
+    }
+    .partners_wrap{
+        width: 714px;
+    }
+    .footer_wrap{
+        width: 714px;
+    }
+    .player{
+        width: 714px;
+    }
+    .card_partn_img{
+        width: 212px;
+    }
+    .card_info_partn{
+        font-size: 12px;
+        width: 212px;
+    }
+    .partn_but{
+width: 212px;
+    }
+    .releasesn_wrap{
+        width: 714px;
+    }
+    .basic_wrap_bg{
+        width: 714px;
+    }
+    .partners_newer_wrap{
+        width:714px;
+    }
+    .header_releases_news_wrap{
+        width: 714px;
+    }
+}

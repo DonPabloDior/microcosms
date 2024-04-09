@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+.header_releases_news{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    font-family: 'Montserrat';
+}
+.img_header_r{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 560px;
+    object-fit: cover;
+    z-index: -1;
+}
+
+.gradient{
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100vw;
+    height: 560px;
+    background: rgb(0,0,0);
+    background: linear-gradient(180deg, rgba(0,0,0,0.4556022237996761) 0%, rgba(0,0,0,0.12507001091452208) 45%, rgba(0,212,255,0) 100%);
+}
+.header_releases_news_wrap{
+    width: 1200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 560px;
+}
+.wrap_above_header_r{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+.header_line_r{
+    width: 64px;
+    height: 4px;
+    background-color: white;
+}
+.above_title_hr{
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+
+}
+.title_header_r{
+    margin-top: 24px;
+    font-size: 70px;
+    font-weight: bold;
+    color: white;
+}
+
+.header_releases_news_info{
+    display: flex;
+    justify-content: center;
+}
+.header_releases_news_info_wrapone{
+    background-color: var(--r_color_bg);
+    padding: 80px 120px;
+}
+.title_header_releases{
+    color: #323232;
+    margin-bottom: 24px;
+    font-size: 32px;
+    font-weight: bold;
+}
+.subtitle_header_releases{
+    color: #3F3F3F;
+    font-size: 24px;
+    font-weight: bold;
+
+}
+.header_releases_news_info_wraptwo{
+    color: white;
+    background-color: #4D4D4D;
+    padding: 80px 120px;
+    position: relative;
+}
+.title_header_releases_two{
+    font-size: 32px;
+    font-weight: bold;
+    width: 292px;
+}
+
+.staff_white{}
+.staff_gray{}
+.line_info_releases{
+    width: 433px;
+    height: 1px;
+    background-color: white;
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+.title_gray{
+    color: #B0B1B1;
+}
+.subtitle_gray{
+    margin-top: 12px;
+    color: #B0B1B1;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.staff_wrap_all{
+position: relative;
+font-size: 16px;
+margin-top: 24px;
+font-weight: bold;
+}
+.staff_wrap{
+
+}
+.staff_wrap_two{
+position: absolute;
+top: 0;
+right: 0;
+display: flex;
+flex-direction: column;
+gap: 25px;
+color: #B0B1B1;
+}
+
+.end_of_releases{
+    position: absolute;
+    bottom: 80px;
+}

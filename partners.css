@@ -1,0 +1,150 @@
+
+
+
+.partners{
+ background-color: #EAEAEA;
+ display: flex;
+ justify-content: center;
+}
+.partners_wrap{
+    width: 1200px;
+}
+.cards_wrap_partn{
+    display: flex;
+    gap: 16px;
+}
+.card_partn{
+    background-color: white;
+    width: auto;
+    height: auto;
+    padding: 16px;
+    border-radius: 16px;
+    position: relative;
+    margin-top: 40px;
+    margin-bottom: 80px;
+}
+.card_partn_img{
+    width: 256px;
+    height: 172px;
+    background-color: gray;
+    border-radius: 16px;
+    border: none;
+    object-fit: cover;
+}
+.qqq{
+    object-position: 0px -40px;
+}
+.card_title_partn{
+    color: #39545E;
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 16px;
+    margin-bottom: 8px;
+}
+.card_info_partn{
+    font-size: 16px;
+    color: #B0B1B1;
+    font-weight: bold;
+    line-height: 150%;
+}
+.partn_but_wrap{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    height: 40px;
+    margin-top: 10px;
+}
+.partn_but{
+    position: absolute;
+    bottom: 16px;
+    height: 40px;
+    width: 256px;
+    border-radius: 16px;
+    background-color: #4F4D68;
+    border: transparent solid;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.partn_but:hover{
+    background-color: #7b7994;
+}
+
+
+.partners_page{
+    display: flex;
+    justify-content: center;
+}
+
+.partners_page_wrap{
+    width: 1200px;
+}
+.project_page_cards_wrap{
+    display: flex;
+
+}
+
+.partners_newer{
+    justify-content: center;    
+    display: flex;
+    background-color: #EAEAEA;
+}
+.partners_newer_wrap{
+    width: 1200px;
+    padding: 80px 0;
+}
+.partners_newer_h1{
+    font-size: 40px;
+    font-weight: bold;
+    color: #162024;
+    margin-bottom: 24px;
+}
+.partners_newer_p{
+    font-size: 16px;
+    line-height: 150%;
+    font-weight: bold;
+    color: #162024;
+}
+
+.basic_bg{
+    display: flex;
+    justify-content: center;
+    background-color: #EAEAEA;
+}
+.basic_wrap_bg{
+    width: 1200px;
+    padding: 80px 0;
+}
+.aboutus_h1{
+    color: #162024;
+    font-size: 40px;
+    font-weight: bold;
+}
+.aboutus_p{
+    color: #162024;
+    font-size: 16px;
+    margin-top: 16px;
+    font-weight: bold;
+    line-height: 150%;
+}
+
+.bold{
+    font-weight: bolder;
+}
+
+.mona{
+    margin-top: 0px;
+}
+
+.we{
+    margin-bottom: 0px !important;
+}
+
+.wq{
+    margin-top: 16px !important;
+}
+.lp{
+    justify-content: unset !important;
+}
